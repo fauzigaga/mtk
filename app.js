@@ -21,7 +21,7 @@ app.use((req, res, next) => {
 
 app.get('/', (req, res) => {
 
-  res.render('index.html', {
+  res.render('body', {
     title: 'home',
     layout: 'layouts/index',
   })
@@ -30,7 +30,7 @@ app.get('/', (req, res) => {
 
 //   res.render('create', {
 //     title: 'create',
-//     layout: 'layouts/index',
+//     layout: 'layouts/ind',
 //   })
 // })
 app.get('/segitiga', (req, res) => {
