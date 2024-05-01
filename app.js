@@ -23,55 +23,55 @@ app.get('/', (req, res) => {
 
   res.render('index', {
     title: 'home',
-    layout: 'layouts/main-layout',
+    layout: 'layouts/index',
   })
 })
 // app.get('/create', (req, res) => {
 
 //   res.render('create', {
 //     title: 'create',
-//     layout: 'layouts/main-layout',
+//     layout: 'layouts/index',
 //   })
 // })
 app.get('/segitiga', (req, res) => {
   res.render('segitiga', {
-    layout: 'layouts/main-layout',
+    layout: 'layouts/index',
     title: 'segitiga'
   })
 })
 app.get('/persegi', (req, res) => {
   res.render('persegi', {
-    layout: 'layouts/main-layout',
+    layout: 'layouts/index',
     title: 'persegi'
   })
 })
 app.get('/trigonometri', (req, res) => {
   res.render('trigonometri', {
-    layout: 'layouts/main-layout',
+    layout: 'layouts/index',
     title: 'trigonometri'
   })
 })
 app.get('/matrix-2', (req, res) => {
   res.render('matrix-2', {
-    layout: 'layouts/main-layout',
+    layout: 'layouts/index',
     title: 'matrix'
   })
 })
 app.get('/matrix-3', (req, res) => {
   res.render('matrix-3', {
-    layout: 'layouts/main-layout',
+    layout: 'layouts/index',
     title: 'matrix'
   })
 })
 app.get('/matrix-select', (req, res) => {
   res.render('matrix-select', {
-    layout: 'layouts/main-layout',
+    layout: 'layouts/index',
     title: 'matrix-select'
   })
 })
 app.get('/statistika', (req, res) => {
   res.render('statistika', {
-    layout: 'layouts/main-layout',
+    layout: 'layouts/index',
     title: 'statistika'
   })
 })
