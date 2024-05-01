@@ -287,8 +287,6 @@
     width: 100%;
     justify-content: space-between;
   }
-  .navbar{
-  }
   .navbar .nav-url{
     position: absolute;
     top: 100%;
